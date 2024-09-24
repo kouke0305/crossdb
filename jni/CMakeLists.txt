@@ -9,7 +9,7 @@ include_directories(${JNI_INCLUDE_DIRS})
 include_directories(include)
 include_directories(../include)
 
-link_directories(./lib)
+link_directories(static_libs)
 
 
 add_library(crossdbjni-win64 SHARED db_jni.cpp)
